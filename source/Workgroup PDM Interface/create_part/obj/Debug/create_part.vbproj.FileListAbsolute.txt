@@ -1,0 +1,14 @@
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\create_part.exe.config
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\Interop.PDMWorks.dll
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\create_part.vbproj.ResolveComReference.cache
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\create_part.exe
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\create_part.pdb
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\create_part.xml
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\create_part.Resources.resources
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\create_part.vbproj.GenerateResource.Cache
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\create_part.exe
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\create_part.xml
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_part\obj\Debug\create_part.pdb
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\Resources\NewPart.sldprt
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\WPDM.config
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_part\bin\Debug\pdmworks_libFNP.dll
