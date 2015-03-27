@@ -13,7 +13,7 @@ Sequel.extension :migration
 # Task for executing any pending database schema changes.
 namespace :db do
   task :migrate do
-    require "db"
+    require_relative "db"
     Sequel::Migrator.run(DB, "db/migrations")
   end
 end

@@ -117,6 +117,12 @@ module CheesyParts
       halt(400, "Missing part number prefix.") if params[:part_number_prefix].nil?
 
       project = Project.create(:name => params[:name], :part_number_prefix => params[:part_number_prefix])
+	  
+	  # Create new project in PDM
+	  dir = "\"" + File.dirname(__FILE__).gsub("/", "\\") + "\\pdm\\\""
+	  command = "create_project.exe \"#{params[:name]}\" \"#{params[:name]}\""
+	  system("start /B /D " + dir + " " + command)
+	  
       redirect "/projects/#{project.id}"
     end
 
@@ -218,6 +224,30 @@ module CheesyParts
       part.priority = 1
       part.drawing_created = 0
       part.save
+	  
+	  # Create new part/assembly in PDM
+	  dir = "\"" + File.dirname(__FILE__).gsub("/", "\\") + "\\pdm\\\""
+	  project_name = project.name
+	  if part.type == "assembly"
+	  	if not parent_part.nil?
+	      project_name = project.part_number_prefix + " " + part.name
+		  parent_project_name = project.part_number_prefix + " " + parent_part.name
+		  if parent_part.parent_part.nil?
+		  	parent_project_name = project.name
+		  end
+	      command = "create_project.exe \"#{project_name}\" \"#{project_name}\" \"#{parent_project_name}\""
+	      system("start /B /D " + dir + " " + command)
+        end
+	    command = "create_assembly.exe \"#{project_name}\" \"#{part.full_part_number}\" \"#{part.name}\""
+		system("start /B /D " + dir + " " + command)
+	  elsif part.type == "part"
+	  	if not parent_part.nil? and not parent_part.parent_part.nil?
+	      project_name = project.part_number_prefix + " " + parent_part.name
+        end
+	    command = "create_part.exe \"#{project_name}\" \"#{part.full_part_number}\" \"#{part.name}\""
+		system("start /B /D " + dir + " " + command)
+	  end
+	  
       redirect "/parts/#{part.id}"
     end
 

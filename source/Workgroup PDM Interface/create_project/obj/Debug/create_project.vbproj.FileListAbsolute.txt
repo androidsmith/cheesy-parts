@@ -1,0 +1,12 @@
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\bin\Debug\create_project.exe.config
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\Interop.PDMWorks.dll
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\create_project.vbproj.ResolveComReference.cache
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\bin\Debug\create_project.exe
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\bin\Debug\create_project.pdb
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\bin\Debug\create_project.xml
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\create_project.Resources.resources
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\create_project.vbproj.GenerateResource.Cache
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\create_project.exe
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\create_project.xml
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_project\obj\Debug\create_project.pdb
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_project\bin\Debug\WPDM.config

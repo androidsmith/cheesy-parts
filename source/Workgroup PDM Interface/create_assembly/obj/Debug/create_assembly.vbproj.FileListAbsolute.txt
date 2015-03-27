@@ -1,0 +1,14 @@
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\create_assembly.exe.config
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\Interop.PDMWorks.dll
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\create_assembly.vbproj.ResolveComReference.cache
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\create_assembly.exe
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\create_assembly.pdb
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\create_assembly.xml
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\create_assembly.Resources.resources
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\create_assembly.vbproj.GenerateResource.Cache
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\create_assembly.exe
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\create_assembly.xml
+c:\users\as33d\documents\visual studio 2013\Projects\Workgroup PDM Interface\create_assembly\obj\Debug\create_assembly.pdb
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\Resources\NewAssembly.SLDASM
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\WPDM.config
+C:\Users\as33d\Documents\Visual Studio 2013\Projects\Workgroup PDM Interface\create_assembly\bin\Debug\pdmworks_libFNP.dll
