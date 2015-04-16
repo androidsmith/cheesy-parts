@@ -3,3 +3,6 @@
 *.lock
 *.pid
 vendor
+bin/
+obj/
+

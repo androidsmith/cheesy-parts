@@ -46,7 +46,7 @@ Module create_project
             connection.Login(username, password, host)
             connection.CreateProject(name, description, parent)
         Catch ex As Exception
-            Debug.Print(ex.Message)
+            Console.WriteLine(ex.Message)
             Environment.ExitCode = 1
         Finally
             connection.Logout()
