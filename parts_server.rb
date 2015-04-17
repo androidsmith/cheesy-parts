@@ -231,12 +231,11 @@ module CheesyParts
 	    if part.type == "assembly"
 	  	  if not parent_part.nil?
 	        project_name = project.part_number_prefix + " " + part.name
-	        project_description = part.name
 		      parent_project_name = project.part_number_prefix + " " + parent_part.name
 		      if parent_part.parent_part.nil?
 		  	    parent_project_name = project.name
 		      end
-	        command = "create_project.exe \"#{project_name}\" \"#{project_description}\" \"#{parent_project_name}\""
+	        command = "create_project.exe \"#{project_name}\" \"#{project_name}\" \"#{parent_project_name}\""
 	        system("start /B /D " + dir + " " + command)
         end
 	      command = "create_assembly.exe \"#{project_name}\" \"#{part.full_part_number}\" \"#{part.name}\""
